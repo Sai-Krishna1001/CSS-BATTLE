@@ -40,3 +40,24 @@
   }
 </style>
 ```
+
+## 08/10/2023 Challenge
+
+```bash
+<p><p a>
+<style>
+  *{
+    background: radial-gradient(120px circle at center, #ED6A9D 67%, #050044 67%, #050044 100%, #ED6A9D 100%)
+  }
+  p {
+    width: 400px;
+    height: 40px;
+    background: #ED6A9D;
+    position: fixed;
+    top: 114;
+  }
+  [a]{
+    rotate:90deg;
+    left:0;
+  }
+```
