@@ -61,3 +61,33 @@
     left:0;
   }
 ```
+## 10/10/2023 Challenge
+```bash
+<p><p a>
+<style>
+  *{
+    background:#FEFAE0;
+  }
+  p{
+    width: 30;
+    height: 160;
+    position: fixed;
+    border: 0;
+    border-radius: 0;
+    top: 130;
+    left: 65;
+    background:#9CCCDB;
+    -webkit-box-reflect:right 210px;
+  }
+  [a]{
+    width: 60;
+    height: 60;
+    border: 30px solid #9CCCDB;
+    border-radius: 50%;
+    top: 74;
+    background: 0;
+    -webkit-box-reflect: right 30px;
+  }
+ 
+</style>
+```
