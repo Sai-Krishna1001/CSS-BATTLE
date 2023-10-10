@@ -13,7 +13,64 @@
   margin:50+100
 }
 ```
+## Piano
+```bash
+<div>
+  <p></p>
+</div>
+<style>
+  body{
+    background:#998235;
+    display: grid;
+    place-content: center;
+  }
+  div {
+    width: 180px;
+    height: 100px;
+    background: #191919;
+    border-radius: 10px;
+  }
+  p{
+    background: #FFFFFF;
+    height: 70px;
+    width: 20px;
+    border-radius: 5px;
+    margin: 25px 5px;
+    box-shadow: 25px 0px, 50px 0px, 75px 0px,100px 0px, 125px 0px, 150px 0px;
+    color: #FFFFFF;
+  }
+  p:before{
+    display:block;
+    content: "";
+    background:#191919;
+    width: 15px;
+    height: 36px;
+    translate: 15px -1px;
+    box-shadow: 25px 0px, 75px 0px,100px 0px, 125px 0px;
+    color: #191919
+  }
+</style>
+```
+## 08/10/2023 Challenge
 
+```bash
+<p><p a>
+<style>
+  *{
+    background: radial-gradient(120px circle at center, #ED6A9D 67%, #050044 67%, #050044 100%, #ED6A9D 100%)
+  }
+  p {
+    width: 400px;
+    height: 40px;
+    background: #ED6A9D;
+    position: fixed;
+    top: 114;
+  }
+  [a]{
+    rotate:90deg;
+    left:0;
+  }
+```
 ## 09/10/2023 Challenge
 
 ```bash
@@ -39,27 +96,6 @@
     box-shadow: 120px 180px #230259;
   }
 </style>
-```
-
-## 08/10/2023 Challenge
-
-```bash
-<p><p a>
-<style>
-  *{
-    background: radial-gradient(120px circle at center, #ED6A9D 67%, #050044 67%, #050044 100%, #ED6A9D 100%)
-  }
-  p {
-    width: 400px;
-    height: 40px;
-    background: #ED6A9D;
-    position: fixed;
-    top: 114;
-  }
-  [a]{
-    rotate:90deg;
-    left:0;
-  }
 ```
 ## 10/10/2023 Challenge
 ```bash
@@ -91,3 +127,4 @@
  
 </style>
 ```
+
