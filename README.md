@@ -127,4 +127,34 @@
  
 </style>
 ```
+## 11/10/2023 Challenge
+```bash
+<p><p a>
+<style>
+  body{
+    background:#DA30D4;
+  }
+  p {
+    width: 100px;
+    height: 100px;
+    background: #DA30D4;
+    border: 30px solid #0C0C49;
+    border-radius: 50%;
+    position: fixed;
+    top: 58;
+    left: 120;
+    z-index:2;
+  }
+  [a]{
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    top: 77;
+    left: 58;
+    z-index:1;
+    background: 0;
+    /* border: 30px solid #0C0C49; */
+    -webkit-box-reflect:right 42px
+  }
+```
 
